@@ -1,7 +1,9 @@
 import React from 'react';
 import { DiCss3Full, DiHtml5, DiReact, DiSass } from 'react-icons/di';
-import { SiJavascript, SiNodeDotJs } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
+import { BsFillBootstrapFill } from 'react-icons/bs';
+import { GrGraphQl } from 'react-icons/gr';
 import { IconContext } from 'react-icons';
 import Title from '../Title/Title';
 import skillStyles from './skills.module.scss';
@@ -16,9 +18,10 @@ const Skills = () => {
           <DiHtml5 className={`${skillStyles.Html}`} />
           <DiCss3Full className={`${skillStyles.Css}`} />
           <DiSass className={`${skillStyles.Sass}`} />
+          <BsFillBootstrapFill className={`${skillStyles.Bootsrap}`} />
           <SiJavascript className={`${skillStyles.JsSkill}`} />
           <DiReact className={`${skillStyles.React}`} />
-          <SiNodeDotJs className={`${skillStyles.Node}`} />
+          <GrGraphQl className={`${skillStyles.Graphql}`} />
           <AiOutlineConsoleSql className={`${skillStyles.Sql}`} />
         </div>
       </IconContext.Provider>

@@ -28,12 +28,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'react-gallery-app.jpg',
+    img: 'devhunter.jpg',
+    title: 'DevHunter Web Platform',
+    info: `A full-stack web platform for developers to showcase their projects and collaborate to learn and improve skills.`,
+    info2: `The client side was built using CSS Modules, React, React Router & Apollo Client w/ GraphQL. The API was created using Strapi, a headless CMS and data is stored in a PostgreSQL database.`,
+    url: 'https://dev-hunter.netlify.app/',
+    repo: 'https://github.com/airoble-1/Developer-Showcase-Client', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'cocktail_db.jpg',
     title: 'React Gallery App',
-    info: `A lightweight gallery app that utilizes React library and the handy Create React App tool. Data is fetched from the Flickr API and displayed in the app. I also got the opportunity to work with a thrid-party library like React Router to manage routes.`,
-    info2: `React, Context API, SASS`,
-    url: 'https://react-app-gallery-ahmed.netlify.app/',
-    repo: 'https://github.com/airoble-1/React-Gallery-App', // if no repo, the button will not show up
+    info: `A lightweight React web application that retrieves cocktail data from public API and consumes in the front-end. Ability to search for a particular cocktail and see details including instructions on how to make and what ingredients to add. Built from John Smilga's React course.`,
+    info2: `CSS , React, React Router`,
+    url: 'https://the-react-cocktails-db.netlify.app/',
+    repo: 'https://github.com/airoble-1/reactjs-cocktail-api', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'space_tourism.png',
+    title: 'Space Tourism Website',
+    info: `Developed and deployed responsive and accessible landing page following design specifications on Frontend Mentor. The goal is to improve my web layout skills by building a realistic project and add some interactivity with JavaScript. `,
+    info2: `HTML, SCSS, JavaScript`,
+    url: 'https://space-tourism-99.netlify.app/html/',
+    repo: 'https://github.com/airoble-1/Frontend_Mentor_Challenges/tree/main/space-tourism-website-main', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -52,15 +70,6 @@ export const projectsData = [
     info2: 'HTML, SASS, JavaScript',
     url: 'https://airoble-1.github.io/Phrase-Hunter-Game-Show-App/',
     repo: 'https://github.com/airoble-1/Phrase-Hunter-Game-Show-App/tree/gh-pages', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'interactive_form.jpg',
-    title: 'Interactive Form',
-    info: 'A customized form for collecting information from attendees for a fictional conference. One of my first projects using JavaScript to interact with the DOM. It also comes fitted with client-side validation using regular expressions and implements good accessibility practices.',
-    info2: 'HTML, SASS, JavaScript',
-    url: 'https://airoble-1.github.io/Interactive-Form',
-    repo: 'https://github.com/airoble-1/Interactive-Form/tree/gh-pages', // if no repo, the button will not show up
   },
 ];
 
