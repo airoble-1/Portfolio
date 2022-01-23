@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Ahmed Roble | Web Developer', // e.g: 'Name | Developer'
+  title: 'Ahmed Roble | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my Portfolio', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi, My name is',
   name: 'Ahmed',
-  subtitle: ' I am an aspiring Web Developer',
+  subtitle: ' I am an aspiring Developer',
   cta: 'Find out more',
 };
 
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: `Hi I'm Ahmed a web developer with a passion for JavaScript. Learning to code and building web applications has been the most difficult yet rewarding undertaking in my life. I am driven by the constant challenge of finding solutions to problems and see it as an oppurtunity for growth. Over the course of my journey I've learned and practiced with core technologies such as HTML, CSS & Javascript and more modern tech like React.`,
   paragraphTwo: `But the journey does not end there! I'm working on improving my React skills with projects and I'm looking to pickup a framework like Next.js in the near future. My long term goal is to become a full stack developer able to transform great ideas into beatiful and functional products.`,
   paragraphThree: `Put simply I am a developer because want to be better today than yesterday and these project below are a great demostration of the that.`,
-  resume: 'https://drive.google.com/file/d/1UfOCuJlXvYmznW32j9BXCYp3Nk-OcPcW/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1bS2dEf0z2BkwhhgfBZfLWzPGRvwM5CuL/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -77,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Want to get in touch? Awesome!',
   btn: 'Email Me',
-  email: 'airoble2019@gmail.com',
+  email: 'airoble1@myseneca.ca',
 };
 
 // FOOTER DATA
