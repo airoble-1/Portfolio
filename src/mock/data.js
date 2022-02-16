@@ -53,24 +53,6 @@ export const projectsData = [
     url: 'https://space-tourism-99.netlify.app/html/',
     repo: 'https://github.com/airoble-1/Frontend_Mentor_Challenges/tree/main/space-tourism-website-main', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'webapp_dashboard.jpg',
-    title: 'WebApp Dashboard',
-    info: 'A beautiful and responsive web dashboard complete with JavaScript-driven charts and graphs. User settings are saved in local storage.',
-    info2: 'HTML, SASS, JavaScript, Chart.js',
-    url: 'https://airoble-1.github.io/web_app_dashboard_v3.2/',
-    repo: 'https://github.com/airoble-1/web_app_dashboard_v3.2/tree/gh-pages', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'phrase_hunter.jpg',
-    title: 'Phrase Hunter - OOP',
-    info: 'Here is a fun, guess the phrase game. I built this after being introduced to object-oriented JavaScript and the theories of OOP in order to create code that is more readable, better organized easily maintained.',
-    info2: 'HTML, SASS, JavaScript',
-    url: 'https://airoble-1.github.io/Phrase-Hunter-Game-Show-App/',
-    repo: 'https://github.com/airoble-1/Phrase-Hunter-Game-Show-App/tree/gh-pages', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
