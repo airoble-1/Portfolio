@@ -18,10 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Hi I'm Ahmed a web developer with a passion for JavaScript. Learning to code and building web applications has been the most difficult yet rewarding undertaking in my life. I am driven by the constant challenge of finding solutions to problems and see it as an oppurtunity for growth. Over the course of my journey I've learned and practiced with core technologies such as HTML, CSS & Javascript and more modern tech like React.`,
-  paragraphTwo: `But the journey does not end there! I'm working on improving my React skills with projects and I'm looking to pickup a framework like Next.js in the near future. My long term goal is to become a full stack developer able to transform great ideas into beatiful and functional products.`,
-  paragraphThree: `Put simply I am a developer because want to be better today than yesterday and these project below are a great demostration of the that.`,
+  paragraphOne: `Hi I'm Ahmed a web developer with a passion for JavaScript. Learning to code and building web applications has been the most difficult yet rewarding undertaking in my life. I am driven by the constant challenge of finding solutions to problems and see it as an opportunity for growth. Over the course of my journey I've learned and practiced with core technologies such as HTML, CSS & Javascript and more modern tech like React.`,
+  paragraphTwo: `Throughout my studies in the Computer Programming and Analysis program at Seneca College, I have engaged in web development, databases (both SQL and noSQL), networking, back-end development, and a myriad of programming languages.`,
+  paragraphThree: `But the journey does not end there! I'm working on improving my React skills with projects and I'm looking to pickup a framework like Next.js in the near future. My long term goal is to become a full stack developer able to transform great ideas into beatiful and functional products.`,
+  paragraphFour: `Put simply I am a developer because want to be better today than yesterday and these project below are a great demostration of the that.`,
   resume: 'https://drive.google.com/file/d/1bS2dEf0z2BkwhhgfBZfLWzPGRvwM5CuL/view?usp=sharing', // if no resume, the button will not show up
+  coverLetter: 'https://drive.google.com/file/d/155bQQqGNWjEbpbFiSlrxm881OHwW9Dm9/view?usp=sharing',
 };
 
 // PROJECTS DATA

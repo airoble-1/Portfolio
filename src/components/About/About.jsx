@@ -7,7 +7,8 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, resume, coverLetter } =
+    about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -48,18 +49,35 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
+                <p className="about-wrapper__info-text">
+                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </p>
+                <div className="d-flex">
+                  {resume && (
+                    <span className="d-flex mt-3 mr-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href={resume}
+                      >
+                        Resume
+                      </a>
+                    </span>
+                  )}
+                  {coverLetter && (
+                    <span className="d-flex mt-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href={coverLetter}
+                      >
+                        Cover Letter
+                      </a>
+                    </span>
+                  )}
+                </div>
               </div>
             </Fade>
           </Col>
