@@ -7,8 +7,16 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, resume, coverLetter } =
-    about;
+  const {
+    img,
+    paragraphOne,
+    paragraphTwo,
+    paragraphThree,
+    paragraphFour,
+    resume,
+    coverLetter,
+    reflection,
+  } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -66,7 +74,7 @@ const About = () => {
                     </span>
                   )}
                   {coverLetter && (
-                    <span className="d-flex mt-3">
+                    <span className="d-flex mt-3 mr-3">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -74,6 +82,18 @@ const About = () => {
                         href={coverLetter}
                       >
                         Cover Letter
+                      </a>
+                    </span>
+                  )}
+                  {reflection && (
+                    <span className="d-flex mt-3 mr-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href={reflection}
+                      >
+                        WTP100 Reflection
                       </a>
                     </span>
                   )}
