@@ -23,8 +23,6 @@ export const aboutData = {
   paragraphThree: `But the journey does not end there! I'm working on improving my React skills with projects and I'm looking to pickup a framework like Next.js in the near future. My long term goal is to become a full stack developer able to transform great ideas into beatiful and functional products.`,
   paragraphFour: `Put simply I am a developer because want to be better today than yesterday and these project below are a great demostration of the that.`,
   resume: 'https://drive.google.com/file/d/1bS2dEf0z2BkwhhgfBZfLWzPGRvwM5CuL/view?usp=sharing', // if no resume, the button will not show up
-  coverLetter: 'https://drive.google.com/file/d/155bQQqGNWjEbpbFiSlrxm881OHwW9Dm9/view?usp=sharing',
-  reflection: 'https://drive.google.com/file/d/1DKrx4xeASVBuxViA5OXDTzNxM0DLCKd_/view?usp=sharing',
 };
 
 // PROJECTS DATA
