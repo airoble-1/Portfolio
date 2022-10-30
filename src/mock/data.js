@@ -38,12 +38,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'cocktail_db.jpg',
-    title: 'React Gallery App',
-    info: `A lightweight React web application that retrieves cocktail data from public API and consumes in the front-end. Ability to search for a particular cocktail and see details including instructions on how to make and what ingredients to add. Built from John Smilga's React course.`,
-    info2: `CSS , React, React Router`,
-    url: 'https://the-react-cocktails-db.netlify.app/',
-    repo: 'https://github.com/airoble-1/reactjs-cocktail-api', // if no repo, the button will not show up
+    img: 'WEB322_blog.png',
+    title: 'Personal Blog',
+    info: `A NodeJS SSR blog application with authentication and database functionality.`,
+    info2: `NodeJS, Bootstrap, Express-Handlebars, Mongodb, and Postgres`,
+    url: 'https://web322-blog-v6-production.up.railway.app/blog',
+    repo: 'https://github.com/airoble-1/web322-blog-v6', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
