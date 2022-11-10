@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: `Throughout my studies in the Computer Programming and Analysis program at Seneca College, I have engaged in web development, databases (both SQL and noSQL), networking, back-end development, and a myriad of programming languages.`,
   paragraphThree: `But the journey does not end there! I'm working on improving my React skills with projects and I'm looking to pickup a framework like Next.js in the near future. My long term goal is to become a full stack developer able to transform great ideas into beatiful and functional products.`,
   paragraphFour: `Put simply I am a developer because want to be better today than yesterday and these project below are a great demostration of the that.`,
-  resume: 'https://drive.google.com/file/d/1-H5fnI4TnxiNVt6Be3a7VOrOiGDVjbSB/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1WUPKpJAdogH_1wwWYlaZFd23NW8zyu0U/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
